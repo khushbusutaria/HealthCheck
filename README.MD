@@ -36,13 +36,18 @@ Stopping the Script: To stop the monitoring process, press Ctrl + C in the termi
 
 5. Output
 The script will continuously monitor each endpoint and print the availability percentage for each domain every 15 seconds. Sample output might look like this:
+
 fetch.com has 67% availability percentage
+
 www.fetchrewards.com has 100% availability percentage
+
 fetch.com has 67% availability percentage
+
 www.fetchrewards.com has 100% availability percentage
+
 ...
 
-6. Customization
+7. Customization
 Timeout: You can adjust the timeout in the check_health function by modifying the timeout parameter:
 response = requests.request(method, url, headers=headers, data=body, timeout=0.5)
 By default, the script does a health check every 15 seconds. Change the time.sleep(15) line to adjust the interval.

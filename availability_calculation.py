@@ -110,7 +110,6 @@ def monitor_endpoints(file_path):
 
 
 if __name__ == "__main__":
-    file_path = "/path/to/file"  # Update with your file path
-    file_path = "input_file.yaml"
+    file_path = "input_file.yaml"  # Update with your file path
     monitor_endpoints(file_path)
 
